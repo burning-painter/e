@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="abc.css">
+    <script src="test.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <input type="text" id="sc" name="sc" placeholder="0">
+            <div class="buttons">
+                <button onclick="allclear()">AC</button>
+                <button onclick="cls()">DEL</button>
+                <button onclick="scUpdate(this.value)" value="%">%</button>
+                <button onclick="scUpdate(this.value)" value="/">/</button>
+                <button onclick="scUpdate(this.value)" value="7">7</button>
+                <button onclick="scUpdate(this.value)" value="8">8</button>
+                <button onclick="scUpdate(this.value)" value="9">9</button>
+                <button onclick="scUpdate(this.value)" value="*">*</button>
+                <button onclick="scUpdate(this.value)" value="4">4</button>
+                <button onclick="scUpdate(this.value)" value="5">5</button>
+                <button onclick="scUpdate(this.value)" value="6">6</button>
+                <button onclick="scUpdate(this.value)" value="-">-</button>
+                <button onclick="scUpdate(this.value)" value="1">1</button>
+                <button onclick="scUpdate(this.value)" value="2">2</button>
+                <button onclick="scUpdate(this.value)" value="3">3</button>
+                <button onclick="scUpdate(this.value)" value="+">+</button>
+                <button onclick="scUpdate(this.value)" value="00">00</button>
+                <button onclick="scUpdate(this.value)" value="0">0</button>
+                <button onclick="scUpdate(this.value)" value=".">.</button>
+                <button onclick="passValue()" value="=">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
